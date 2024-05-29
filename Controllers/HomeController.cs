@@ -26,5 +26,12 @@ namespace Cargo_Shipment.Controllers
 
             return View();
         }
+
+        public ActionResult Price()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

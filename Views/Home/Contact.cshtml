@@ -1,19 +1,48 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
+<!-- Main Content -->
+<section>
+    <!-- About Us -->
+    <div>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Contact Us</h1>
+            <p class="fs-5 text-muted">Write to me with your needs and will be happy to discuss back to you.</p>
+        </div>
 
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+        <div class="container">
+            <form id="contact_form" name="contact_form" action="https://formspree.io/f/meqynnnl" method="post" style="margin-right: 200px; margin-left: 200px;">
+                <div class="mb-5 row">
+                    <div class="col">
+                        <label for="full_name">Full Name</label>
+                        <input type="text" required maxlength="50" class="form-control" id="full_name" name="user-Name">
+                    </div>
+                    <!-- <div class="col">
+                        <label>Last Name</label>
+                        <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+                    </div> -->
+                </div>
+                <div class="mb-5 row">
+                    <div class="col">
+                        <label for="email_addr">Email address</label>
+                        <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                               placeholder="name@example.com">
+                    </div>
+                    <div class="col">
+                        <label for="phone_input">Phone</label>
+                        <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                               placeholder="Phone">
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn text-white bg-success px-4 btn-lg">Send</button>
+            </form>
+        </div>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
-</main>
+
+    </div>
+
+</section>
