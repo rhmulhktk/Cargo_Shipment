@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS Admin Panel - @ViewBag.Title</title>
+    <title>CS Employee Panel - @ViewBag.Title</title>
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link type="stylesheet" href="main.css">
 
@@ -24,43 +24,43 @@
 
 </head>
 <body id="page-top">
-@*    <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
-        <div class="container">
-            @Html.ActionLink("Caro Shapment", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Home", "Index", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("About", "About", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
+    @*    <nav class="navbar navbar-expand-sm navbar-toggleable-sm">
+            <div class="container">
+                @Html.ActionLink("Caro Shapment", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li>@Html.ActionLink("Home", "Index", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("About", "About", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Admin", new { area = "" }, new { @class = "nav-link" })</li>
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
             </div>
-        </div>
-    </nav>*@
+        </nav>*@
 
 
     <!-- Page Wrapper -->
-    <div id="wrapper" >
+    <div id="wrapper">
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="width:300px">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div <div class="mx-3 text-white"><b>Admin Panel</b> <sup></sup></div>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="~/Employe/Index">
+                @*<div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-laugh-wink"></i>
+            </div>*@
+                <div class="sidebar-brand-text mx-3">Employee Panel <sup></sup></div>
             </a>
 
             <a class="d-flex align-items-center justify-content-center" href="~/Home/Index">
                 @*<div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
-            </div>*@
+            <i class="fas fa-laugh-wink"></i>
+        </div>*@
                 <div class="mx-3 text-white"><b>Home</b><sup></sup></div>
             </a>
 
@@ -80,42 +80,23 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Primary Secources Section
+                Book Shipment
             </div>
 
+            <!-- Nav Item - Pages Collapse Menu -->
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                    aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Employees</span>
+                    <span>Book Shipment</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="~/Admin/Index">List of Employees</a>
-                        <a class="collapse-item" href="~/Admin/Index">Add Employee</a>
-                        <a class="collapse-item" href="~/Admin/Index">Update Employee</a>
-                        <a class="collapse-item" href="~/Admin/Index">Delete Employee</a>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                   aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Website Section</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                     data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Message</a>
-                        <a class="collapse-item" href="utilities-border.html">Branches Details</a>
-                        <a class="collapse-item" href="utilities-animation.html">Contact Us</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                        <h6 class="collapse-header">Book Shipment:</h6>
+                        <a class="collapse-item" href="~/Admin/Index">Book Shipment</a>
+                        <a class="collapse-item" href="~/Admin/Index">Branches</a>
+                        <a class="collapse-item" href="~/Admin/Index">Contact Us</a>
                     </div>
                 </div>
             </li>
@@ -124,31 +105,6 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">
-                Customers
-            </div>
-
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                   aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Customers</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">List of Customers</a>
-                        @*<a class="collapse-item" href="register.html">Register</a>
-                    <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-                    <div class="collapse-divider"></div>
-                    <h6 class="collapse-header">Other Pages:</h6>
-                    <a class="collapse-item" href="404.html">404 Page</a>
-                    <a class="collapse-item" href="blank.html">Blank Page</a>*@
-                    </div>
-                </div>
-            </li>
-
             <!-- Nav Item - Charts -->
             <!--<li class="nav-item">
         <a class="nav-link" href="charts.html">
@@ -401,74 +357,74 @@
 
 
 
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white py-5">
-                <div class="row container my-auto">
-                    <div class="col-2">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                        </ul>
-                    </div>
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white py-5">
+                    <div class="row container my-auto">
+                        <div class="col-2">
+                            <h5>Section</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="col-2">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                        </ul>
-                    </div>
+                        <div class="col-2">
+                            <h5>Section</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="col-2">
-                        <h5>Section</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                        </ul>
-                    </div>
+                        <div class="col-2">
+                            <h5>Section</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="col-4 offset-1">
-                        <form>
-                            <h5>Subscribe to our newsletter</h5>
-                            <p>Monthly digest of whats new and exciting from us.</p>
-                            <div class="d-flex w-100 gap-2">
-                                <label for="newsletter1" class="visually-hidden">Email address</label>
-                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address" data-listener-added_609d9ac6="true">
-                                <button class="btn btn-primary" type="button">Subscribe</button>
-                            </div>
-                        </form>
+                        <div class="col-4 offset-1">
+                            <form>
+                                <h5>Subscribe to our newsletter</h5>
+                                <p>Monthly digest of whats new and exciting from us.</p>
+                                <div class="d-flex w-100 gap-2">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control" placeholder="Email address" data-listener-added_609d9ac6="true">
+                                    <button class="btn btn-primary" type="button">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
-                <br />
-                <br />
+                    <br />
+                    <br />
 
-            <div class="container my-auto">
-                <div class="copyright text-center my-auto">
-                    <span>&copy; 2024 - @DateTime.Now.Year - Caro Shapment Company, Inc. All rights reserved. </span>
-                </div>
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>&copy; 2024 - @DateTime.Now.Year - Caro Shapment Company, Inc. All rights reserved. </span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
+
             </div>
-            </footer>
-            <!-- End of Footer -->
-
+            <!-- End of Content Wrapper -->
         </div>
-        <!-- End of Content Wrapper -->
+        <!-- End of Page Wrapper -->
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
     </div>
-    <!-- End of Page Wrapper -->
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-</div>
 
 
 
@@ -484,7 +440,7 @@
 
 
 
-    
+
 
 
     <!-- Bootstrap core JavaScript-->

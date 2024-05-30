@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\shared\\_employelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\shared\\_employelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\shared\\_customerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEkAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:50:17.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_EmployeLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_EmployeLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_EmployeLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_EmployeLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_EmployeLayout.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAywEAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:23:30.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CustomerLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_CustomerLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_CustomerLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_CustomerLayout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:23:26.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:21:15.051Z",
+              "EditorCaption": ""
             }
           ]
         }
