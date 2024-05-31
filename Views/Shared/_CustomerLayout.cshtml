@@ -56,7 +56,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Book Shipment:</h6>
-                        <a class="collapse-item" href="~/Admin/Index">Book Shipment</a>
+                        <a class="collapse-item" href="~/Appoinments/Create">Book Shipment</a>
                         <a class="collapse-item" href="~/Admin/Index">Branches</a>
                         <a class="collapse-item" href="~/Admin/Index">Contact Us</a>
                     </div>
@@ -87,8 +87,6 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-
-                    @Html.Partial("_LoginPartial")
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -123,7 +121,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Wellcome</span>
                                 <img class="img-profile rounded-circle"
                                      src="img/undraw_profile.svg">
                             </a>
@@ -168,36 +166,22 @@
                 <!-- Footer -->
                 <footer class="sticky-footer bg-white py-5">
                     <div class="row container my-auto">
-                        <div class="col-2">
-                            <h5>Section</h5>
+                        <div class="col-3">
+                            <h5>Home</h5>
                             <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipment</a></li>
+                                <li class="nav-item mb-2"><a href="~/Home/Price" class="nav-link p-0 text-muted">Pricing</a></li>
                                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Data Privicy Policies</a></li>
                             </ul>
                         </div>
-
-                        <div class="col-2">
-                            <h5>Section</h5>
+                        <div class="col-3">
+                            <h5>Customer</h5>
                             <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-2">
-                            <h5>Section</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                                <li class="nav-item mb-2"><a href="~/Customer/Index" class="nav-link p-0 text-muted">LogIn</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact-Us</a></li>
+                                @*<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>*@
                             </ul>
                         </div>
 

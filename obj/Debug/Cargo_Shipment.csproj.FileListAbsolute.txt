@@ -214,3 +214,6 @@ C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.CoreCompileIn
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Sh.D35A7373.Up2Date
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.dll
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.pdb
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.InitialCreate.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.AddTime.resources
