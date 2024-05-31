@@ -210,11 +210,12 @@ C:\Users\HP\Desktop\Cargo_Shipment\bin\Microsoft.Owin.Security.MicrosoftAccount.
 C:\Users\HP\Desktop\Cargo_Shipment\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\HP\Desktop\Cargo_Shipment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.InitialCreate.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.AddTime.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.ConsignmentBooks.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.GenerateResource.cache
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Sh.D35A7373.Up2Date
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.dll
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.pdb
-C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.InitialCreate.resources
-C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.GenerateResource.cache
-C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.AddTime.resources
-C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.ConsignmentBooks.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.UpdatedAppoinmentModel.resources

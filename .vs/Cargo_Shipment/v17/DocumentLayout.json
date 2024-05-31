@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\admin\\consignmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\admin\\consignmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\views\\consignmentbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:views\\consignmentbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|c:\\users\\hp\\desktop\\cargo_shipment\\controllers\\consignmentbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53FCAFE8-12D4-4800-8AF3-3545FB8670E4}|Cargo_Shipment.csproj|solutionrelative:controllers\\consignmentbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,89 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwsAAAAgAQAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-05-31T10:42:59.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T10:33:25.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\ConsignmentBooks\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ConsignmentBooks\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\ConsignmentBooks\\Index.cshtml",
-              "RelativeToolTip": "Views\\ConsignmentBooks\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwv3QAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T10:33:10.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsignmentList.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Admin\\ConsignmentList.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ConsignmentList.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Views\\Admin\\ConsignmentList.cshtml",
-              "RelativeToolTip": "Views\\Admin\\ConsignmentList.cshtml",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAwwGsAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T10:31:45.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConsignmentBooksController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Controllers\\ConsignmentBooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConsignmentBooksController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Controllers\\ConsignmentBooksController.cs",
-              "RelativeToolTip": "Controllers\\ConsignmentBooksController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:28:06.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Cargo_Shipment\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADwvxQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:26:37.598Z",
-              "EditorCaption": ""
             }
           ]
         }

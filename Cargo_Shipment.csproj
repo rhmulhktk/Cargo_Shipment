@@ -191,6 +191,10 @@
     <Compile Include="Migrations\202405310957323_ConsignmentBooks.Designer.cs">
       <DependentUpon>202405310957323_ConsignmentBooks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405311137082_Updated Appoinment Model.cs" />
+    <Compile Include="Migrations\202405311137082_Updated Appoinment Model.Designer.cs">
+      <DependentUpon>202405311137082_Updated Appoinment Model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ConsignmentBook.cs" />
@@ -2115,6 +2119,7 @@
     <Content Include="Views\ConsignmentBooks\Edit.cshtml" />
     <Content Include="Views\ConsignmentBooks\Index.cshtml" />
     <Content Include="Views\Admin\ConsignmentList.cshtml" />
+    <Content Include="Views\Employe\CustomerAppoinmnts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2155,6 +2160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405310957323_ConsignmentBooks.resx">
       <DependentUpon>202405310957323_ConsignmentBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405311137082_Updated Appoinment Model.resx">
+      <DependentUpon>202405311137082_Updated Appoinment Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

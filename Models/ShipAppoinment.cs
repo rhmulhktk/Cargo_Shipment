@@ -16,6 +16,10 @@ namespace Cargo_Shipment.Models
         public string Consignee  { get; set; }
 
         [DataType(DataType.Text)]
+        [Display(Name = "C.N.I.C Number")]
+        public string CNIC { get; set; }
+
+        [DataType(DataType.Text)]
         [Required(ErrorMessage = "Please Enter Your Origin")]
         [Display(Name = "Origin")]
         public string Origin { get; set; }
@@ -46,9 +50,11 @@ namespace Cargo_Shipment.Models
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+       
         public DateTime BDate { get; set; }
 
         [DataType(DataType.Time)]
+        [Display(Name = "Booking Time")]
         public DateTime BTime { get; set; }
     }
 }

@@ -47,13 +47,13 @@ namespace Cargo_Shipment.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Consignee,Origin,Destination,Location,Email,Phone,Desc,BDate")] ShipAppoinment shipAppoinment)
+        public ActionResult Create([Bind(Include = "ID,Consignee,CNIC,Origin,Destination,Location,Email,Phone,Desc,BDate,BTime")] ShipAppoinment shipAppoinment)
         {
             if (ModelState.IsValid)
             {
                 db.ShipAppoinments.Add(shipAppoinment);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index","Home");
             }
 
             return View(shipAppoinment);
