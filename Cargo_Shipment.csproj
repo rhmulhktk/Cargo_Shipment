@@ -171,6 +171,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AppoinmentsController.cs" />
+    <Compile Include="Controllers\ConsignmentBooksController.cs" />
     <Compile Include="Controllers\EmployeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -186,8 +187,13 @@
     <Compile Include="Migrations\202405301144529_Add Time.Designer.cs">
       <DependentUpon>202405301144529_Add Time.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202405310957323_ConsignmentBooks.cs" />
+    <Compile Include="Migrations\202405310957323_ConsignmentBooks.Designer.cs">
+      <DependentUpon>202405310957323_ConsignmentBooks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ConsignmentBook.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ShipAppoinment.cs" />
@@ -2103,6 +2109,12 @@
     <Content Include="Views\Appoinments\Details.cshtml" />
     <Content Include="Views\Appoinments\Edit.cshtml" />
     <Content Include="Views\Appoinments\Index.cshtml" />
+    <Content Include="Views\ConsignmentBooks\Create.cshtml" />
+    <Content Include="Views\ConsignmentBooks\Delete.cshtml" />
+    <Content Include="Views\ConsignmentBooks\Details.cshtml" />
+    <Content Include="Views\ConsignmentBooks\Edit.cshtml" />
+    <Content Include="Views\ConsignmentBooks\Index.cshtml" />
+    <Content Include="Views\Admin\ConsignmentList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2140,6 +2152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405301144529_Add Time.resx">
       <DependentUpon>202405301144529_Add Time.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405310957323_ConsignmentBooks.resx">
+      <DependentUpon>202405310957323_ConsignmentBooks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

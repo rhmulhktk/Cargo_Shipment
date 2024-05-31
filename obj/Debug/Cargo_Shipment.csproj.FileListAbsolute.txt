@@ -217,3 +217,4 @@ C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.pdb
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.InitialCreate.resources
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.csproj.GenerateResource.cache
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.AddTime.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.ConsignmentBooks.resources

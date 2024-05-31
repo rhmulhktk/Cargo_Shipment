@@ -1,0 +1,131 @@
+﻿@model Cargo_Shipment.Models.ConsignmentBook
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_EmployeLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ConsignmentBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CNIC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CNIC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Consignee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Consignee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Shiper)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Shiper)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiperCNIC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiperCNIC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiperEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiperEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiperPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShiperPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Origin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Origin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Destination)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Destination)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsigneePhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsigneePhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Desc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Desc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
