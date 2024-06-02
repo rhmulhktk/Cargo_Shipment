@@ -13,21 +13,21 @@
 <div class="table-responsive">
     <table class="table table-hover">
         <tr>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.CNIC)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.Consignee)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Shiper)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.ShiperCNIC)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ShiperEmail)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.ShiperPhone)
             </th>
@@ -40,9 +40,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Location)
             </th>
-            <th>
+            @*<th>
                 @Html.DisplayNameFor(model => model.Email)
-            </th>
+            </th>*@
             <th>
                 @Html.DisplayNameFor(model => model.ConsigneePhone)
             </th>
@@ -70,7 +70,7 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Shiper)
                 </td>
-                <td>
+                @*<td>
                     @Html.DisplayFor(modelItem => item.ShiperCNIC)
                 </td>
                 <td>
@@ -78,7 +78,7 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ShiperPhone)
-                </td>
+                </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.Origin)
                 </td>
@@ -91,9 +91,9 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
-                <td>
+                @*<td>
                     @Html.DisplayFor(modelItem => item.ConsigneePhone)
-                </td>
+                </td>*@
                 <td>
                     @Html.DisplayFor(modelItem => item.Desc)
                 </td>
