@@ -1,0 +1,156 @@
+﻿@model Cargo_Shipment.Models.ConsignmentBook
+
+@{
+    ViewBag.Title = "OrderStatus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <h4>Consignment Record</h4>
+    <hr />
+
+    @if (Model == null)
+    {
+
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+
+            @*<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                    <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
+                </a>*@
+        </div>
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <a class="btn btn-primary" target="" href="~/Home/Index">Back to Home</a>
+
+    }
+
+
+    @if (Model != null)
+    {
+        <div id="DivIdToPrint">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                @*<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                        <i class="fas fa-download fa-sm text-white-50"></i> Generate Report
+                    </a>*@
+            </div>
+
+            <hr />
+
+            <dl class="dl-horizontal">
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Consignee)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Consignee)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Location)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Location)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Shiper)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Shiper)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Destination)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Destination)
+                </dd>
+
+            </dl>
+
+            <div style="overflow-x:auto;">
+                <table class="table table-responsive table-responsive">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CNIC)
+                        </th>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.Ship_Number)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Weight)
+                            </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.Desc)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CurrentStatus)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Shiper)
+                        </th>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.Container_ID)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TrelaInformation)
+                            </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.BDate)
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(model => model.CNIC)
+                        </td>
+
+                        @*<td>
+                                @Html.DisplayFor(model => model.Ship_Number)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.Weight)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(model => model.Desc)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.CurrentStatus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(model => model.Shiper)
+                        </td>
+                        @*<td>
+                                @Html.DisplayFor(model => model.Container_ID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(model => model.TrelaInformation)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(model => model.BDate)
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+        <p>
+
+            <input type='button' id='btn' value='Print' onclick='printDiv();'
+                   class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" /> |
+            <a class="btn btn-primary" target="" href="~/Home/Index">Back to Home</a>
+        </p>
+    }
+
+</div>
+    

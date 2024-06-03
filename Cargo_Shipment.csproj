@@ -171,6 +171,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\AppoinmentsController.cs" />
+    <Compile Include="Controllers\BranchesController.cs" />
     <Compile Include="Controllers\ConsignmentBooksController.cs" />
     <Compile Include="Controllers\EmployeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -195,8 +196,13 @@
     <Compile Include="Migrations\202405311137082_Updated Appoinment Model.Designer.cs">
       <DependentUpon>202405311137082_Updated Appoinment Model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406030937444_Branch Model.cs" />
+    <Compile Include="Migrations\202406030937444_Branch Model.Designer.cs">
+      <DependentUpon>202406030937444_Branch Model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Branch.cs" />
     <Compile Include="Models\ConsignmentBook.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -226,12 +232,17 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\cursor1.jpg" />
+    <Content Include="Images\cursor2.jpg" />
+    <Content Include="Images\cursor3.jpg" />
+    <Content Include="Images\logo.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Images\cursor4.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\demo\chart-area-demo.js" />
     <Content Include="Scripts\demo\chart-bar-demo.js" />
@@ -2120,6 +2131,12 @@
     <Content Include="Views\ConsignmentBooks\Index.cshtml" />
     <Content Include="Views\Admin\ConsignmentList.cshtml" />
     <Content Include="Views\Employe\CustomerAppoinmnts.cshtml" />
+    <Content Include="Views\Branches\Create.cshtml" />
+    <Content Include="Views\Branches\Delete.cshtml" />
+    <Content Include="Views\Branches\Details.cshtml" />
+    <Content Include="Views\Branches\Edit.cshtml" />
+    <Content Include="Views\Branches\Index.cshtml" />
+    <Content Include="Views\Home\OrderStatus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2163,6 +2180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202405311137082_Updated Appoinment Model.resx">
       <DependentUpon>202405311137082_Updated Appoinment Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406030937444_Branch Model.resx">
+      <DependentUpon>202406030937444_Branch Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
