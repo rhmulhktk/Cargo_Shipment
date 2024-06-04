@@ -220,3 +220,4 @@ C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.dll
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.pdb
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.UpdatedAppoinmentModel.resources
 C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.BranchModel.resources
+C:\Users\HP\Desktop\Cargo_Shipment\obj\Debug\Cargo_Shipment.Migrations.AdinPanel.resources

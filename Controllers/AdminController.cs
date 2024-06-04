@@ -1,4 +1,5 @@
 ﻿using Cargo_Shipment.Data;
+using Cargo_Shipment.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,15 @@ namespace Cargo_Shipment.Controllers
     public class AdminController : Controller
     {
         private Cargo_ShipmentContext db = new Cargo_ShipmentContext();
+
+        private ApplicationDbContext apuser = new ApplicationDbContext();
         // GET: Admin
         public ActionResult Index()
         {
+            ViewBag.Employee = apuser.Users.Count();
+            ViewBag.Shipment = db.ConsignmentBooks.Count();
+            ViewBag.Branch = db.Branches.Count();
+            ViewBag.OnlineBook = db.ShipAppoinments.Count();
             return View();
         }
 

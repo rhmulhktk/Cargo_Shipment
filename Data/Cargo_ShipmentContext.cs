@@ -24,5 +24,7 @@ namespace Cargo_Shipment.Data
         public System.Data.Entity.DbSet<Cargo_Shipment.Models.ConsignmentBook> ConsignmentBooks { get; set; }
 
         public System.Data.Entity.DbSet<Cargo_Shipment.Models.Branch> Branches { get; set; }
+
+        public System.Data.Entity.DbSet<Cargo_Shipment.Models.UpdatNews> UpdatNews { get; set; }
     }
 }

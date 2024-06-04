@@ -176,6 +176,7 @@
     <Compile Include="Controllers\EmployeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\UpdatNewsController.cs" />
     <Compile Include="Data\Cargo_ShipmentContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -200,6 +201,10 @@
     <Compile Include="Migrations\202406030937444_Branch Model.Designer.cs">
       <DependentUpon>202406030937444_Branch Model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406031147572_Adin Panel.cs" />
+    <Compile Include="Migrations\202406031147572_Adin Panel.Designer.cs">
+      <DependentUpon>202406031147572_Adin Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Branch.cs" />
@@ -207,6 +212,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\ShipAppoinment.cs" />
+    <Compile Include="Models\UpdatNews.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -2137,6 +2143,12 @@
     <Content Include="Views\Branches\Edit.cshtml" />
     <Content Include="Views\Branches\Index.cshtml" />
     <Content Include="Views\Home\OrderStatus.cshtml" />
+    <Content Include="Views\Employe\Details.cshtml" />
+    <Content Include="Views\UpdatNews\Create.cshtml" />
+    <Content Include="Views\UpdatNews\Delete.cshtml" />
+    <Content Include="Views\UpdatNews\Details.cshtml" />
+    <Content Include="Views\UpdatNews\Edit.cshtml" />
+    <Content Include="Views\UpdatNews\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2183,6 +2195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406030937444_Branch Model.resx">
       <DependentUpon>202406030937444_Branch Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406031147572_Adin Panel.resx">
+      <DependentUpon>202406031147572_Adin Panel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
