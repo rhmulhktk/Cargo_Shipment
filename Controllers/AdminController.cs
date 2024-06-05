@@ -10,7 +10,7 @@ namespace Cargo_Shipment.Controllers
 {
 
 
-    
+    [Authorize]
     public class AdminController : Controller
     {
         private Cargo_ShipmentContext db = new Cargo_ShipmentContext();

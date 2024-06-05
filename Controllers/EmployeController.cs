@@ -9,13 +9,14 @@ using System.Web.Mvc;
 
 namespace Cargo_Shipment.Controllers
 {
+    [Authorize]
     public class EmployeController : Controller
     {
         private Cargo_ShipmentContext db = new Cargo_ShipmentContext();
         // GET: Employe
         public ActionResult Index()
         {
-            return View();
+            return View(db.UpdatNews.ToList());
         }
 
         public ActionResult CustomerAppoinmnts()
